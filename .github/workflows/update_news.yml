@@ -1,9 +1,12 @@
 name: Daily News Scrape
 
 on:
-  schedule:
+  workflow_dispatch:
+
+"on:
+  ## schedule:
     - cron: '0 */6 * * *'  # Runs every 6 hours
-  workflow_dispatch:      # Allows you to click "Run Now" manually
+  workflow_dispatch:      # Allows you to click "Run Now" manually"
 
 jobs:
   scrape-and-update:
