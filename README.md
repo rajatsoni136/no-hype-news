@@ -1,4 +1,4 @@
-# 🛡️ No-Hype News: AI-Powered Clickbait Remover
+#  No-Hype News: AI-Powered Clickbait Remover
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://no-hype-news.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.10-blue)](https://www.python.org/)
@@ -9,12 +9,12 @@
 
 ---
 
-## 🚀 The Problem
+##  The Problem
 Modern news feeds are optimized for **engagement**, not **information**. "Clickbait" headlines manipulate emotions (Fear, FOMO) to drive ad revenue, forcing users to "doomscroll" to find actual facts.
 
 **The result?** Information overload and anxiety.
 
-## 💡 The Solution
+##  The Solution
 I built an automated AI pipeline that treats news as a data engineering problem. It doesn't just "flag" clickbait—it **fixes** it.
 
 The system:
@@ -24,7 +24,7 @@ The system:
 
 ---
 
-## ⚙️ Architecture Pipeline
+##  Architecture Pipeline
 
 ```mermaid
 graph LR
@@ -36,7 +36,7 @@ graph LR
     F -->|Streamlit| G[User Dashboard]
 
 ```
-### 🔍 Step-by-Step Pipeline Details
+###  Step-by-Step Pipeline Details
 
 1.  **Ingestion (`scraper.py`):**
     * Fetches raw RSS feeds from 15+ high-volume tech sources.
@@ -56,7 +56,7 @@ graph LR
   
    ---
 
-## 📸 Screenshots
+##  Screenshots
 
 ### 1. The "De-Hyped" Dashboard
 *The main feed filters out sensation. Notice the "Hype Score" on the right.*
@@ -68,7 +68,7 @@ graph LR
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Language:** Python 3.10
 * **LLM Orchestration:** LangChain, OpenAI API
@@ -79,7 +79,7 @@ graph LR
 
 ---
 
-## 🏃‍♂️ How to Run Locally
+##  How to Run Locally
 
 Want to see the code in action? Follow these steps:
 
@@ -119,7 +119,7 @@ Want to see the code in action? Follow these steps:
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 This project is open-source. Feel free to open an issue if you find a bug or have a suggestion for a new feature (e.g., Sentiment Analysis).
 
